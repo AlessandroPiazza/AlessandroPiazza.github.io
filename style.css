@@ -29,7 +29,10 @@
      border-bottom: 1px solid gray;
   }
   
-  
+  .conjunto-dado:hover{
+	  width: 100%;
+	  background-color: lightgray;
+  }
 
 /* Telefones em paisagem e abaixo */
 @media (max-width: 768px) { 
@@ -574,4 +577,5 @@
         transition: all 0.2s ease;
       }
   
+
 }
