@@ -284,8 +284,15 @@ h1{
         padding-bottom: 22%;
         margin-bottom:-40px;
     }
-    .menu-resposivo{
+    .menu-responsivo{
+        color: white;
+        margin: 5px;
         display: block;
         position: fixed;
+        width: content;
+        height: content;
+        padding: 5px;
+        background-color:  rgba(0, 0, 0, 0.329);
+        border-radius:5%;
     }
 }
