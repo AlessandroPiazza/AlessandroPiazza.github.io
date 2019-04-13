@@ -37,9 +37,8 @@ h1{
     padding-bottom:275px;
 }
 .menu{
-    align-items:center;
     display: grid;
-    text-align: center;
+    
     grid-template-columns: 5% 5% 5% 5%;
     grid-template-rows: auto;
     background-color: black;
@@ -54,6 +53,9 @@ h1{
     height:0px;
     position: fixed;
     top: 0;
+}
+.menu-responsivo{
+    display: none;
 }
 .menu-item{
     padding-top: 22%;
@@ -259,9 +261,31 @@ h1{
         width: 80%;
         height:fit-content;
     }
+    .infos-site{
+        margin-left:-40px
+    }
     .infos{
+        width: 80%;
         display:block;
         float:left;
-        margin:10px 0 5px 1px;
+        margin:5px 0 5px 1px;
+    }
+    .info{
+        width: 100%;
+    }
+    .dados{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-item{
+        padding-top: 22%;
+        padding-bottom: 22%;
+        margin-bottom:-40px;
+    }
+    .menu-resposivo{
+        display: block;
+        position: fixed;
     }
 }

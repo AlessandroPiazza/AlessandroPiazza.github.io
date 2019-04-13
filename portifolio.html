@@ -9,9 +9,12 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     </header>
     <body>
+        <a class="menu-responsivo">
+            <i class="fa fa-download"></i>
+        </a>
         <section class="header-site">
             <div class="header">
-                <h1 style="text-align: center; font-size: 41px">
+                <h1 >
                     Olá eu sou Alessandro Piazza
                     <h4 style="text-align: center; margin-top: -10px">Analista e Desenvolvedor de Sistemas</h4>
                 </h1>
@@ -30,9 +33,10 @@
                 <a class="menu-item facebook jq-item" href="https://www.facebook.com/alessandro.piazza.9887"><i  class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a class="menu-item linkedin jq-item" href="https://www.linkedin.com/in/alessandro-piazza-2a1274134/"><i  class="fa fa-linkedin" aria-hidden="true"></i></a>
                 <a class="menu-item curriculo jq-item" href="download/Curriculo.pdf" download="Curriculo.pdf">
-                <i class="fa fa-download"></i></a>   
+                </a>   
             </div>
         </section>
+        
         <div class="container">
 
        
@@ -104,7 +108,7 @@
                             </div>
                         </div>
         </section>
-                <section class="education-site">
+                <section class="education-site" id="infos">
                     
                     <ol>
                         <h1 style="text-align: center">Educação</h1>
@@ -154,7 +158,7 @@
             clearTimeout(timeout);
             timeout = setTimeout(function(){
            
-            if($(window).scrollTop() > 900)
+            if($(window).scrollTop () < 900)
             {
                 $('.menu-jq').animate({ height:"50px"},"fast");
                 $('.jq-item').animate({opacity: "1"})
