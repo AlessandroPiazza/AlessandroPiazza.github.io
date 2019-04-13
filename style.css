@@ -1,9 +1,136 @@
+body{
+  font-family: 'Roboto';
+ }
+
+.header-site{
+  background-image: url(../AlessandroFrontEnd/Imagens/Header.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffff;
+  padding-top: 250px;
+  padding-bottom:275px;
+}
+.curriculo-button{
+  width:100px;
+  height: 30px;
+  font-size: 19px;
+  background-color: #0000FF;
+  color: white;
+  border: none;
+  -webkit-box-shadow: 4px 2px 3px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    4px 2px 3px rgba(50, 50, 50, 0.77);
+  box-shadow:         4px 2px 3px rgba(50, 50, 50, 0.77);
+  border-radius: 5px;
+}
+.curriculo-button:hover{
+  background-color: white;
+  color: 	#0000FF;
+}
+.curriculo-button:active{
+  width: 98px;
+  height: 28px;
+  box-shadow: none;
+  font-size: 17px; 
+}
+.facebook{
+  background-color: #4267B2;
+}
+.facebook:hover{
+  background-color: white;
+  color: #4267B2;
+}
+.linkedin{
+  background-color: #6495ED;
+}
+.linkedin:hover{
+  background-color: white;
+  color: black;
+}
+.github:hover{
+  background-color: white;
+  color:black;
+}
+.introduction-site{
+  
+}
+.nav{
+  width: 100%;
+  background-color: #1C1C1C;
+  height: 50px;
+  background-color: #F23005;
+  -webkit-box-shadow: 4px 2px 3px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    4px 2px 3px rgba(50, 50, 50, 0.77);
+  box-shadow:         4px 2px 3px rgba(50, 50, 50, 0.77);
+  position:relative;
+  border-radius:1%;
+}
+.nav-opt-r{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  color: white;
+  margin-right: 20px;
+  float: right; 
+  position: relative; 
+  top: 50%;                         
+  transform: translate(0, -50%); 
+}
+.menu-jq{
+  width:100%;
+  height:0px;
+  float: left;
+  position: fixed;
+  display: block;
+  top: 0;
+  
+  background-color: #1C1C1C;
+  -webkit-box-shadow: 4px 2px 3px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    4px 2px 3px rgba(50, 50, 50, 0.77);
+  box-shadow:         4px 2px 3px rgba(50, 50, 50, 0.77);
+}
+.menu-jq-item{
+  opacity: 0;
+  float: right;
+  display: block;
+  
+}
+.div-pag{
+  margin: 5%;
+}
+.div-pag-col{
+  margin: 15%;
+}
+
+.scroll-aparecer{
+  width: 100%;
+  float: left;
+  height: 0px;
+  background-color: lightblue;
+  position: fixed;
+  top: 0;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .divPattern{
     margin: 50px;
-   }
-
-   body{
-    font-family: 'Roboto';
    }
 
    .font-blue{
@@ -67,18 +194,7 @@
   transform: translate(0, -50%);
   
 }
-.nav-opt-r{
-  padding-left: 10px;
-  border-left: 1px solid white;
-  display: block;
-  color: white;
-  margin-right: 20px;
-  float: right; 
-  position: relative; 
-  top: 50%;                         
-  transform: translate(0, -50%);
-  
-}
+
 .about{
   text-align: center;
   width: 100%;
@@ -209,18 +325,7 @@
       transform: translate(0, -50%);
       
     }
-    .nav-opt-r{
-      padding-left: 10px;
-      border-left: 1px solid white;
-      display: block;
-      color: white;
-      margin-right: 20px;
-      float: right; 
-      position: relative; 
-      top: 50%;                         
-      transform: translate(0, -50%);
-      
-    }
+    
     .about{
       margin-top: 25px;
       margin-right: 50px;
@@ -344,18 +449,7 @@
     transform: translate(0, -50%);
     
   }
-  .nav-opt-r{
-    padding-left: 10px;
-    border-left: 1px solid white;
-    display: block;
-    color: white;
-    margin-right: 20px;
-    float: right; 
-    position: relative; 
-    top: 50%;                         
-    transform: translate(0, -50%);
-    
-  }
+
   .about{
     margin-top: 25px;
     margin-right: 150px;
@@ -479,18 +573,7 @@
     transform: translate(0, -50%);
     
   }
-  .nav-opt-r{
-    padding-left: 10px;
-    border-left: 1px solid white;
-    display: block;
-    color: white;
-    margin-right: 20px;
-    float: right; 
-    position: relative; 
-    top: 50%;                         
-    transform: translate(0, -50%);
-    
-  }
+ 
   .about{
     margin-top: 25px;
     margin-right: 150px;
